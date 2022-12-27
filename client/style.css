@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Blinker', Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgb(70, 70, 70), rgb(41, 41, 41));
+}
+
+form{
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.5), rgba(160, 160, 160, 0.5));
+    border-radius: 10px;
+    height: 40vw;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 7vh;
+    width: 95%;
+}
+
+form #minorInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form div label{
+    padding-left: 1vh;
+    font-size: large;
+    letter-spacing: .2vh;
+    color: aliceblue;
+}
+
+form div input{
+    width: 80%;
+    height: 4vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgba(240, 248, 255, 0.5);
+    padding-left: 1vh;
+    transition: all .7s ease-in-out;
+    background: linear-gradient(90deg, rgba(112, 106, 106, 0.4), rgba(75, 71, 71, 0.4));
+    color: aliceblue;
+}
+
+form div input:focus{
+    background: linear-gradient(90deg, rgb(112, 106, 106), rgb(75, 71, 71));
+    border-radius: 4px;
+}
+
+form input[type="submit"]{
+    width: 40%;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: x-large;
+    background: linear-gradient(90deg, rgb(18, 97, 201), rgb(14, 14, 185));
+    color: aliceblue;
+    transition: all .7s ease-in-out;
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

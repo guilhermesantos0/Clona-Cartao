@@ -5,6 +5,7 @@
 ```
 
 <h1>Modelo de como funciona um sistema de clonagem de cartão.</h1><br>
+<h3>Por ser apenas um modelo, não me preocupei em fazer uma página convincente, nem testei responsividade</h3>
 <h3>O sistema consiste em:</h3>
 <h4> - Site para obter as informações<br> - Servidor em express </h4>
 <br>
